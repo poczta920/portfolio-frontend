@@ -1,0 +1,48 @@
+.toolbar {
+  height: 80px;
+  display: flex;
+  flex-flow: row nowrap;
+
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+
+  padding: 0 40px;
+
+  gap: 20px;
+
+  color: white;
+  background-color: rgb(255, 0, 0);
+  //background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(99, 9, 121, 1) 46%, rgba(255, 0, 0, 1) 100%);
+
+  //background-image: url("~src/assets/images-portfolio/amin-moshrefi.jpg");
+  //background-repeat: repeat;
+  //background-attachment: fixed;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+
+}
+
+.nav > a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+.nav > a:hover {
+  color: darkgray;
+  text-decoration: none;
+}
+
+.visible-icon {
+  visibility: hidden;
+}
+
+
+@media screen and (max-width: 600px){
+
+
+}

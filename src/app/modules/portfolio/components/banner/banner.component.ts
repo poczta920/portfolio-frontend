@@ -13,8 +13,7 @@ import { Component } from '@angular/core';
 
   </div>
   `,
-  styles: [
-  ]
+  styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent {
 
