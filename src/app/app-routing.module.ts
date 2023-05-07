@@ -4,7 +4,7 @@ import { PageNotFoundComponent } from './shared/components/page-not-found/page-n
 
 const routes: Routes = [
   { path: 'not-found', component: PageNotFoundComponent },
-  { path: '', redirectTo: 'app', pathMatch: 'full' },
+  { path: '', redirectTo: 'portfolio', pathMatch: 'full' },
   { path: '**', redirectTo: 'not-found', pathMatch: 'full' },
 ];
 

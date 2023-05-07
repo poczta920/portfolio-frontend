@@ -13,6 +13,8 @@ import { RecentProjectsComponent } from './components/recent-projects/recent-pro
 import { SkillComponent } from './components/skill/skill.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import {MaterialModule} from "../../shared/material.module";
+import {PortfolioRoutingModule} from "./portfolio-routing.module";
 
 
 
@@ -33,7 +35,10 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
     ToolbarComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MaterialModule,
+    PortfolioRoutingModule
+
   ]
 })
 export class PortfolioModule { }

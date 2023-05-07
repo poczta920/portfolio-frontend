@@ -7,10 +7,10 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 
 const routes: Routes = [
   {
-    path: 'project',
+    path: 'portfolio',
     component: LayoutPortfolioComponent,
     children: [
-      { path: '', component: PortfolioComponent },   
+      { path: '', component: PortfolioComponent },
     ],
   },
 ];

@@ -1,0 +1,35 @@
+@import "src/assets/variables";
+
+.banner-container {
+  display: flex;
+  flex-flow: column nowrap;
+
+  height: 100%;
+  background-image: url("~src/assets/images-portfolio/amin-moshrefi.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.banner-content {
+  padding-top: 30px;
+  padding-left: 10px;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 5px;
+}
+
+.banner-title-1{
+  margin-bottom: 40px;
+  color: red;
+}
+
+.banner-title-2{
+  margin-bottom: 15px;
+}
+.banner-title-3{
+  margin-bottom: 64px;
+}
+
+
